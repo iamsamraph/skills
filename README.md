@@ -1,5 +1,7 @@
 # Skills
 
+Browse the illustrated guides and download skills at [Do Less Co](https://do-less.co/skills/).
+
 Skills I've built and use. Take any of them, pull them apart, make them yours.
 
 A skill is just a set of written instructions that tells an AI assistant how to do one job properly, every time. There's no code involved — it's plain text. If you can read it, you can change it.
