@@ -1,0 +1,26 @@
+{
+  "main-character-moment": {
+    "order": 1,
+    "tagline": "Your work, remembered.",
+    "category": "Career & growth",
+    "needs": "Slack"
+  },
+  "meeting-news-briefing": {
+    "order": 2,
+    "tagline": "Walk in knowing.",
+    "category": "Meeting prep",
+    "needs": "Public web"
+  },
+  "track-record": {
+    "order": 3,
+    "tagline": "Notice the quiet wins.",
+    "category": "People management",
+    "needs": "Slack"
+  },
+  "ticket-radar": {
+    "order": 4,
+    "tagline": "Find the signal.",
+    "category": "Customer support",
+    "needs": "Helpdesk or CSV"
+  }
+}

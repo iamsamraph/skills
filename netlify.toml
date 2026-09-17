@@ -1,0 +1,12 @@
+[build]
+  base = "website"
+  command = "npm run build"
+  publish = "dist"
+  # Skills live outside the base directory, so always rebuild on repository changes.
+  ignore = "false"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[context.production]
+  command = "npm test && npm run build"

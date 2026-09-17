@@ -1,2 +1,6 @@
 .DS_Store
 *.skill
+
+.netlify/
+website/node_modules/
+website/dist/
