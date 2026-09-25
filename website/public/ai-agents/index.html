@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>What is an AI agent? | Do Less Co</title>
-  <meta name="description" content="A plain-English guide to AI agents at work: what they do, how to build one with Slack or Agentforce, and the risks to understand before connecting company data.">
+  <meta name="description" content="A plain-English guide to AI agents at work: what they do, the practical benefits, where to start building with Slack, Agentforce, Anthropic or OpenAI, and the risks to consider.">
   <link rel="canonical" href="https://do-less.co/ai-agents/">
   <link rel="stylesheet" href="/assets/fonts.css">
   <link rel="stylesheet" href="/ai-agents/style.css">
@@ -43,6 +43,8 @@
         <h2 id="example-title">Preparing for a customer meeting.</h2>
         <p>You could paste notes into a chatbot and ask it for a summary. An agent could find the approved meeting notes and account information itself, pull together a brief, then hand it to you to review.</p>
         <p>That saves you the search. It also raises two useful questions: what could it read while preparing the brief, and where could that brief go afterwards?</p>
+        <h3>What does that give you?</h3>
+        <p>Less time spent gathering information, a more consistent first draft and more time to focus on the conversation itself. The useful part is the handoff: the agent prepares the brief, and you check the details and decide what to do with it.</p>
       </div>
     </section>
 
@@ -52,9 +54,12 @@
         <h2 id="build-title">How do you make one?</h2>
         <p>Start with one job. Define what a good result looks like, connect only the information and actions needed for that job, then test the agent's behaviour before people rely on it.</p>
         <div class="paths">
-          <div><h3>Build for Slack</h3><p>Developers can build a custom agent for Slack using its <a href="https://docs.slack.dev/ai/agent-quickstart/">agent tools and starter templates</a>.</p></div>
-          <div><h3>Use Agentforce</h3><p>Teams can build an <a href="https://slack.com/help/articles/36218109305875-Set-up-and-manage-Agentforce-in-Slack">Agentforce agent in Salesforce</a> and add it to Slack.</p></div>
+          <div><h3>Slack</h3><p>Build an agent that works where your team talks. Start with <a href="https://docs.slack.dev/ai/agent-quickstart/">Slack's agent quickstart</a>.</p></div>
+          <div><h3>Agentforce</h3><p>Build an agent around Salesforce work and <a href="https://slack.com/help/articles/36218109305875-Set-up-and-manage-Agentforce-in-Slack">bring it into Slack</a>.</p></div>
+          <div><h3>Anthropic</h3><p>Use Claude to build an agent with instructions and tools. Follow <a href="https://platform.claude.com/docs/en/managed-agents/quickstart">Anthropic's managed agents quickstart</a>.</p></div>
+          <div><h3>OpenAI</h3><p>Build an agent that can work through steps and use tools. Follow <a href="https://developers.openai.com/api/docs/guides/agents-api/quickstart">OpenAI's Agents API quickstart</a>.</p></div>
         </div>
+        <p>These are starting points, not four separate types of agent. For example, a custom Slack agent can use Anthropic or OpenAI behind the scenes.</p>
         <p>Whichever route you take, choose its permissions deliberately. An instruction saying “don't share this” is no substitute for limiting where it can actually send data.</p>
       </div>
     </section>
