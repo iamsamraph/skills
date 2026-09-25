@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What is an AI agent? | Do Less Co</title>
+  <meta name="description" content="A plain-English guide to AI agents at work: what they do, how to build one with Slack or Agentforce, and the risks to understand before connecting company data.">
+  <link rel="canonical" href="https://do-less.co/ai-agents/">
+  <link rel="stylesheet" href="/assets/fonts.css">
+  <link rel="stylesheet" href="/ai-agents/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23531824'/%3E%3Ctext x='32' y='45' text-anchor='middle' fill='%23F3F0E6' font-family='Arial' font-weight='900' font-size='42'%3Ed.%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="/">DO LESS CO.</a>
+    <nav aria-label="Main navigation"><a href="/">Home</a><a href="/skills/">Skills</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-inner">
+        <p class="eyebrow">AI at work / the basics</p>
+        <h1 id="page-title">What is an<br><span>AI agent?</span></h1>
+        <p class="intro">An AI agent is software you give a goal to, along with information and tools it can use to get there. It can decide what step to take next without you prompting every move.</p>
+        <a class="jump" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works" aria-labelledby="how-title">
+      <div class="section-label">01 / The difference</div>
+      <div class="section-copy">
+        <h2 id="how-title">It can take the next step.</h2>
+        <p>In a simple chat, you provide the material and ask a question. An agent can use connected tools to find information, work through several steps and produce a result. Depending on how it is built, it might search documents, update a record or send a message. It may pause for approval, or it may keep going on its own.</p>
+        <div class="flow" aria-label="An agent works from a goal through permitted information and tools to an outcome">
+          <span>Goal</span><b aria-hidden="true">→</b><span>Approved information + tools</span><b aria-hidden="true">→</b><span>Steps</span><b aria-hidden="true">→</b><span>Result</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section example" aria-labelledby="example-title">
+      <div class="section-label">02 / A work example</div>
+      <div class="section-copy">
+        <h2 id="example-title">Preparing for a customer meeting.</h2>
+        <p>You could paste notes into a chatbot and ask it for a summary. An agent could find the approved meeting notes and account information itself, pull together a brief, then hand it to you to review.</p>
+        <p>That saves you the search. It also raises two useful questions: what could it read while preparing the brief, and where could that brief go afterwards?</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="build-title">
+      <div class="section-label">03 / Getting started</div>
+      <div class="section-copy">
+        <h2 id="build-title">How do you make one?</h2>
+        <p>Start with one job. Define what a good result looks like, connect only the information and actions needed for that job, then test the agent's behaviour before people rely on it.</p>
+        <div class="paths">
+          <div><h3>Build for Slack</h3><p>Developers can build a custom agent for Slack using its <a href="https://docs.slack.dev/ai/agent-quickstart/">agent tools and starter templates</a>.</p></div>
+          <div><h3>Use Agentforce</h3><p>Teams can build an <a href="https://slack.com/help/articles/36218109305875-Set-up-and-manage-Agentforce-in-Slack">Agentforce agent in Salesforce</a> and add it to Slack.</p></div>
+        </div>
+        <p>Whichever route you take, choose its permissions deliberately. An instruction saying “don't share this” is no substitute for limiting where it can actually send data.</p>
+      </div>
+    </section>
+
+    <section class="section attack" aria-labelledby="risk-title">
+      <div class="section-label">04 / Two different risks</div>
+      <div class="section-copy">
+        <h2 id="risk-title">Whose agent is it?</h2>
+        <p>Your own agent might go beyond the job you intended because it can read too much, take too many actions or send its work to the wrong place. You can set limits on those permissions and review what it does.</p>
+        <p>Someone outside your business can also use an agent to automate parts of an attack against your systems. You cannot pause their agent. You need your own access controls, monitoring and response plan. Treat these as separate problems.</p>
+      </div>
+    </section>
+
+    <section class="takeaway" aria-labelledby="check-title">
+      <div class="takeaway-inner">
+        <p class="eyebrow">Before you connect one to work</p>
+        <h2 id="check-title">Ask what it can read, change and send.</h2>
+        <p>Then ask who approves those permissions, who sees its activity and who can stop it. Those answers matter more than how impressive the demo looks.</p>
+      </div>
+    </section>
+  </main>
+  <footer><a class="wordmark" href="/">DO LESS CO.</a><p>AI for Everyday Work · Views my own.</p><a href="https://www.linkedin.com/in/samantharaphael/">More from Sam ↗</a></footer>
+</body>
+</html>

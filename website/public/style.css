@@ -15,3 +15,6 @@
 /* Keep contact links together at the bottom right. */
 .footer-right{justify-content:flex-end}
 @media(max-width:720px){.footer-right{flex-direction:row;justify-content:flex-end}}
+
+/* Let the additional guide link wrap cleanly on narrow screens. */
+@media(max-width:720px){.production .socials{flex-wrap:wrap;justify-content:flex-end;gap:8px 16px}}
