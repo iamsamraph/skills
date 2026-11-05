@@ -1,0 +1,20 @@
+@font-face{font-family:DM Sans;src:url('assets/font-2.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:DM Sans;src:url('assets/font-5.ttf') format('truetype');font-weight:700;font-display:swap}
+@font-face{font-family:Lilita One;src:url('assets/font-6.ttf') format('truetype');font-weight:400;font-display:swap}
+:root{color-scheme:light;--wine:#531824;--cream:#f3f0e6;--muted:#756469}
+*{box-sizing:border-box}
+body{margin:0;min-height:100svh;display:flex;flex-direction:column;background:var(--cream);color:var(--wine);font-family:'DM Sans',sans-serif;border-top:7px solid var(--wine)}
+header{padding:38px 6vw}
+.wordmark{font-family:'Lilita One',sans-serif;font-size:26px;letter-spacing:.015em}
+main{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px 24px 110px}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:.22em;margin:0 0 27px}
+h1{font-family:'Lilita One',sans-serif;font-weight:400;font-size:clamp(64px,9.5vw,132px);line-height:1.04;letter-spacing:-.035em;margin:0}
+.dot{color:#ae6b7b}
+.intro{font-size:clamp(18px,2vw,23px);line-height:1.5;margin:26px 0 34px;color:var(--muted)}
+.connect{display:inline-flex;align-items:center;justify-content:center;gap:32px;min-height:56px;padding:17px 25px;background:var(--wine);color:var(--cream);border:1px solid var(--wine);border-radius:4px;text-decoration:none;font-size:15px;font-weight:700;transition:background .18s,transform .18s}
+.connect span{font-size:22px;line-height:1;font-weight:400}
+.connect:hover{background:#702638;transform:translateY(-2px)}
+.connect:focus-visible{outline:3px solid var(--wine);outline-offset:5px}
+footer{display:flex;justify-content:space-between;gap:20px;margin:0 6vw;padding:23px 0 28px;border-top:1px solid #53182426;font-size:12px;color:var(--muted)}
+@media(max-width:480px){header{padding:28px 25px}.wordmark{font-size:23px}main{padding:70px 22px 90px}h1{font-size:64px}.eyebrow{margin-bottom:23px}.intro{margin-top:23px}footer{margin:0 25px;font-size:11px}}
+@media(prefers-reduced-motion:reduce){.connect{transition:none}.connect:hover{transform:none}}

@@ -39,3 +39,7 @@ npm run build
 ```
 
 The root `netlify.toml` sets the base to `website`, publishes `website/dist`, and deliberately rebuilds even when only skill files outside `website/` change. No deployment credentials are stored in this repository.
+
+## Temporary holding page — 5 November 2026
+
+The homepage now points only to Sam’s LinkedIn. The community signup homepage is preserved in Git at `d731c64031715f0e540aa7c2d6ff2de41e62c637`; its styles, scripts and images remain in `public/`. To bring it back, restore `website/public/index.html` from that commit, then commit and push the change to `main` for a new deployment. Do not reset the whole repository, as that would discard later skills updates.
